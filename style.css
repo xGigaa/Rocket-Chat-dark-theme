@@ -1,8 +1,8 @@
 .content-background-color {
- background-color:#262626
+ background-color:#181b21
 }
 .color-content-background-color {
- color:#262626
+ color:#181b21
 }
 .primary-background-color {
  background-color:#04436a
@@ -11,7 +11,7 @@
  font-family:-apple-system,BlinkMacSystemFont,Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI','Segoe UI Emoji','Segoe UI Symbol','Meiryo UI'
 }
 .color-primary-font-color {
- color:#444
+ color:#13679a
 }
 .color-primary-action-color {
  color:#13679a
@@ -26,7 +26,7 @@
  border-color:#f4f4f4
 }
 .secondary-font-color {
- color:#a0a0a0
+ color:#edf3ff
 }
 .border-component-color {
  border-color:#eaeaea
@@ -140,10 +140,10 @@
  background-color:#fff
 }
 .burger i {
- background-color:#444
+ background-color:#13679a
 }
 input,select,textarea {
- color:#444;
+ color:#13679a;
  background-color:transparent;
  border-color:#e6e6e6;
  border-style:solid
@@ -170,7 +170,7 @@ input[disabled],select[disabled],textarea[disabled] {
  background-color:#ccc
 }
 .rc-old input[type="button"],.rc-old input[type="submit"] {
- color:#444;
+ color:#13679a;
  background:#e6e6e6;
  border-color:#e6e6e6
 }
@@ -193,7 +193,7 @@ input[disabled],select[disabled],textarea[disabled] {
  color:#02acec
 }
 input:-webkit-autofill {
- color:#444 !important;
+ color:#13679a !important;
  background-color:transparent !important
 }
 .input.radio label::before {
@@ -201,10 +201,10 @@ input:-webkit-autofill {
  background-color:#fff
 }
 .input.radio label::after {
- background-color:#444
+ background-color:#13679a
 }
 .input.checkbox.toggle input:checked+label::before {
- background-color:#444
+ background-color:#13679a
 }
 .input.checkbox.toggle input:disabled+label::before {
  background-color:#c3c3c3 !important
@@ -219,7 +219,7 @@ input:-webkit-autofill {
  background-color:#777
 }
 .message a i,.flex-tab a i,.message a[class^="icon-"],.flex-tab a[class^="icon-"] {
- color:#444
+ color:#13679a
 }
 .message a i:hover,.flex-tab a i:hover,.message a[class^="icon-"]:hover,.flex-tab a[class^="icon-"]:hover {
  color:#2b2b2b
@@ -228,7 +228,7 @@ input:-webkit-autofill {
  border-color:#bc2031
 }
 .page-list a:not(.rc-button),.page-settings a:not(.rc-button) {
- color:#444
+ color:#13679a
 }
 .page-list a:not(.rc-button):hover,.page-settings a:not(.rc-button):hover {
  color:#13679a
@@ -264,7 +264,7 @@ input:-webkit-autofill {
  color:#a0a0a0
 }
 .messages-container .edit-room-title:hover {
- color:#444
+ color:#13679a
 }
 .messages-container .footer {
  background:#fff
@@ -372,6 +372,11 @@ input:-webkit-autofill {
  color:rgba(255,255,255,0.76);
  background-color:#022840
 }
+
+.sidebar-item__link {
+    color: #edf3ff;
+}
+
 .sidebar-item__last-message a:not(.mention-link) {
  color:#13679a
 }
@@ -467,7 +472,7 @@ i.status-offline {
  background-color:#0b3e5c
 }
 .button {
- color:#444;
+ color:#13679a;
  background-color:#cecece
 }
 .button:hover {
@@ -486,7 +491,7 @@ i.status-offline {
  background-color:#89a9bd
 }
 .button.secondary {
- color:#444;
+ color:#13679a;
  background-color:#ddd
 }
 .button.secondary:hover {
@@ -532,10 +537,10 @@ label.required::after {
  color:#bc2031
 }
 .main-content .loading-animation>.bounce,.flex-tab .loading-animation>.bounce {
- background-color:#444
+ background-color:#13679a
 }
 .loading-animation.loading-animation--primary>.bounce {
- background-color:#444
+ background-color:#13679a
 }
 @keyframes blink {
  from {
@@ -584,17 +589,22 @@ label.required::after {
 .announcement.error {
  background-color:var(--rc-color-alert-message-warning)
 }
+
+.rc-popover__content {
+    border: 1px solid #343a46;
+}
+
 :root {
- --sidebar-background:#1d1d1d;
- --sidebar-background-light:#161616;
+ --sidebar-background:#22262e;
+ --sidebar-background-light:#1d2128;
  --sidebar-background-light-hover:#111;
- --sidebar-item-hover-background:#161616;
- --sidebar-item-active-background:#111;
+ --sidebar-item-hover-background:#1d2128;
+ --sidebar-item-active-background:#343a46;
  --sidebar-item-unread-color:#fff;
- --header-background-color:#1f1f1f;
+ --header-background-color:#1b1f26;
  --header-title-username-color-darker:#ccc;
  --header-toggle-favorite-color:#666;
- --message-box-container-border-color:#444;
+ --message-box-container-border-color:#343a46;
  --message-box-container-border-width:1px;
  --input-text-color:#fff;
  --input-icon-color:#999;
@@ -606,18 +616,18 @@ label.required::after {
  --button-disabled-background:#111;
  --button-secondary-background:#555;
  --message-box-editing-color:#3a3322;
- --color-white:#202020;
- --popover-divider-color:#333;
+ --color-white:#22262e;
+ --popover-divider-color:#343a46;
  --tooltip-text-color:#ccc;
  --tooltip-background:rgba(16,16,16,0.8);
- --tags-background:#333;
- --popup-list-background:#161616;
+ --tags-background:#343a46;
+ --popup-list-background:#1d2128;
  --popup-list-selected-background:#222;
  --popup-list-background-hover:#282828;
  --popup-list-name-color:#ccc;
  --chip-background:#0a0a0a;
  --rc-color-button-primary-light:#2c75e3;
- --color-gray-light:#444;
+ --color-gray-light:#13679a;
  --status-invisible-sidebar:#484848;
  --status-invisible:#484848;
  --badge-text-color:#fff
@@ -803,22 +813,22 @@ body {
  color:inherit
 }
 .border-component-color {
- border-color:#333
+ border-color:#343a46
 }
 .color-primary-font-color {
- color:#ccc
+ color:#edf3ff
 }
 .messages-container .footer {
- background-color:#262626
+ background-color:#181b21
 }
 .message.new-day::after {
- border-color:#333
+ border-color:#343a46
 }
 .message.new-day::before {
- background-color:#262626
+ background-color:#181b21
 }
 .flex-tab .message.new-day::before {
- background-color:#202020
+ background-color:#22262e
 }
 tr {
  color:#aaa
@@ -846,7 +856,7 @@ input::placeholder,select::placeholder,textarea::placeholder {
  color:#999 !important
 }
 input[disabled],select[disabled],textarea[disabled] {
- background-color:#161616
+ background-color:#1d2128
 }
 .rc-input__icon+.rc-input__element {
  padding:.4rem 1rem .4rem 2.75rem
@@ -896,10 +906,10 @@ input[disabled],select[disabled],textarea[disabled] {
  fill:#aaa
 }
 .background-info-font-color {
- background-color:#333
+ background-color:#343a46
 }
 .first-unread .body:after {
- background-color:#262626
+ background-color:#181b21
 }
 .rc-member-list__counter {
  color:#ccc
@@ -911,7 +921,7 @@ input[disabled],select[disabled],textarea[disabled] {
  background-color:#181818
 }
 .rc-modal {
- background-color:#161616
+ background-color:#1d2128
 }
 .rc-modal__footer {
  background-color:#1c1c1c
@@ -949,16 +959,16 @@ input[disabled],select[disabled],textarea[disabled] {
  fill:#ccc
 }
 .flex-tab-bar .tab-button:hover {
- background-color:#333
+ background-color:#343a46
 }
 .flex-tab-bar .tab-button.active {
- background-color:#333
+ background-color:#343a46
 }
 .page-list a:not(.rc-button),.page-settings a:not(.rc-button) {
  color:#aaa
 }
 .admin-integrations-new-panel .admin-integrations-new-item:hover {
- background-color:#333
+ background-color:#343a46
 }
 .admin-integrations-new-panel .admin-integrations-new-item {
  color:#ccc
@@ -1004,7 +1014,7 @@ body {
  display:none
 }
 .color-info-font-color {
- color:#888
+ color:#edf3ff
 }
 .upload-progress {
  background-color:#111;
@@ -1083,7 +1093,7 @@ body {
  color:#b5bd68
 }
 .jump-recent {
- background-color:#444
+ background-color:#13679a
 }
 .message .time {
  position:relative
@@ -1100,7 +1110,7 @@ body {
  pointer-events:none
 }
 .reply-preview {
- background-color:#202020 !important
+ background-color:#22262e !important
 }
 .rc-button-broadcast {
  padding-left:.7rem !important
