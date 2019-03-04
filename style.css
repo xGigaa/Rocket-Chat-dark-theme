@@ -955,6 +955,23 @@ input[disabled],select[disabled],textarea[disabled] {
 .attachments__item:hover {
  background-color:#282828
 }
+
+.attachment .attachment-block .attachment-block-border {
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ width: 0px;
+ border-radius: 8px;
+ padding-left: 0px;
+}
+
+.attachment .attachment-block {
+ position: relative;
+ margin: 5px 0;
+ padding-left: 0px;
+}
+
 .rc-switch__button-inside {
  background-color:#fff
 }
