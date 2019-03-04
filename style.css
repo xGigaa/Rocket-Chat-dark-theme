@@ -850,7 +850,7 @@ tr {
  color:#aaa
 }
 
-.inline-image img {
+.message .body .inline-image img {
  max-width:100%;
  max-height:400px;
  border-radius: 5px;
