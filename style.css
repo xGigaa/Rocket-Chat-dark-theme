@@ -68,11 +68,17 @@
 }
 
 .emoji-picker {
-    background-color: #22262e !important
+    background-color: #22262e !important;
+    border-radius: 5px !important;
+    border: 1px solid black !important
 }
 
 .rc-input__element {
-    color: #FFF !important
+    color: #000 !important;
+    background-color: #FFF !important;
+    border: 1px solid black !important;
+    border-radius: 5px !important;
+    height: 2rem !important
 }
 
 .rc-popover__content {
@@ -83,12 +89,21 @@
     color: #FFF !important
 }
 
+
+.contextual-bar {
+    border-left-color: black !important;
+    border-left-style: solid !important;
+    border-left-width: 1px !important
+}
 .contextual-bar__content {
     background-color: #22262e !important
 }
 
 .contextual-bar__header {
-    background-color: #22262e !important
+    background-color: #22262e !important;
+    border-bottom-color: black !important;
+    border-bottom-style: solid !important;
+    border-bottom-width: 1px !important
 }
 
 .rc-button--outline {
@@ -96,7 +111,8 @@
 }
 
 .rc-button {
-    color: #FFF !important
+    color: #FFF !important;
+    border-width: 1px !important
 }
 
 .rc-popover__title {
@@ -140,5 +156,44 @@ textarea {
 }
 
 .sidebar-flex__search .rc-input__element {
-    color: #000
+    color: #000 !important
+}
+
+.rc-modal {
+    background-color: #22262e !important;
+    border-radius: 5px !important;
+    border: 1px solid black !important
+}
+
+.rc-modal__title {
+    color: #FFF !important
+}
+
+.rc-modal__footer {
+    background-color: #22262e !important
+}
+
+.messages-container .footer {
+    background-color: #181b21 !important
+}
+
+.rc-popover__content {
+    border: 1px solid black !important;
+    border-radius: 5px !important
+}
+
+.message.new-day::before {
+    background-color: #242932 !important
+}
+
+.rc-user-info-details {
+    background-color: #22262e !important
+}
+
+.rc-user-info-details__info {
+    color: #FFF !important
+}
+
+.message-actions {
+    color: #FFF
 }
