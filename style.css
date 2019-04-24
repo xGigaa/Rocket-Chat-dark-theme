@@ -200,7 +200,7 @@ textarea {
 
 .message .reactions > li {
     background-color: #22262e !important;
-    border-color: black !important;
+    border-color: black !important
 }
 
 .message .reactions > li .reaction-emoji .emoji, .message .reactions > li .reaction-emoji .emojione {
@@ -208,5 +208,9 @@ width: 22px !important;
 min-width: 22px !important;
 height: 22px !important;
 min-height: 22px !important;
-margin: 0.40ex .20em 0ex !important;
+margin: 0.40ex .20em 0ex !important
+}
+
+.message .reactions > li {
+height: 30px !important
 }
