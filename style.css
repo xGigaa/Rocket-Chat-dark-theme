@@ -197,3 +197,8 @@ textarea {
 .message-actions {
     color: #FFF
 }
+
+.message .reactions > li {
+    background-color: #22262e !important;
+    border-color: black !important;
+}
