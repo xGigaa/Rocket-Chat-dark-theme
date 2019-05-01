@@ -123,7 +123,7 @@
     width: 0px !important;
 }
 
-.message .body .inline-image img {
+.message .inline-image img {
  max-width:100% !important;
  max-height:40vh !important;
  border-radius: 5px !important
