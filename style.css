@@ -36,7 +36,7 @@
     background-color: #181b21 !important
 }
 
-.message .info .is-bot, .message .info .role-tag {
+.message .title .is-bot, .message .title .role-tag {
     background-color: #6c388c !important;
     color: #FFF !important;
     border-width: 0px !important
