@@ -214,3 +214,11 @@ margin: 0.40ex .20em 0ex !important
 .message .reactions > li {
 height: 30px !important
 }
+
+.message-actions__button {
+    color: #9ea2a8 !important;
+}
+
+.message-actions__menu-icon {
+    color: #9ea2a8 !important;
+}
