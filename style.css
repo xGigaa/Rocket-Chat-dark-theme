@@ -233,3 +233,7 @@ height: 30px !important
 .chip-container__item, .chip-container li {
     background-color: #6c388c !important;
 }
+
+.message.new-day::before {
+    background-color: #181b21 !important;
+}
