@@ -222,3 +222,14 @@ height: 30px !important
 .message-actions__menu-icon {
     color: #9ea2a8 !important;
 }
+.rc-modal__content-text {
+    color: #FFF !important;
+}
+
+.rc-switch-double__label {
+    color: #FFF !important;
+}
+
+.chip-container__item, .chip-container li {
+    background-color: #6c388c !important;
+}
