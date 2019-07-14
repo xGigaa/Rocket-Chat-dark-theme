@@ -237,3 +237,15 @@ height: 30px !important
 .message.new-day::before {
     background-color: #181b21 !important;
 }
+.sidebar-item--mention,
+.sidebar-item--unread {
+    animation-name: wiggle;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+@keyframes wiggle {
+     0%,80% { transform: rotate(0deg); }
+     90% { transform: rotate(1deg); }
+     100% { transform: rotate(-1deg); }
+}
